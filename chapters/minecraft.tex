@@ -105,6 +105,7 @@ Die folgenden Abbildung zeigt einen Allow- und Deny-Block (Hellbrauner und graue
 \end{figure}
 
 \subsection{NPCs}
+\label{npcs}
 
 Ein wichtiges Element im virtuellen Klassenraum sind die sogenannten NPCs (Non-player characters).
 Darunter versteht man Figuren, in der virtuellen Welt, die nicht selbst vom Lehrer gesteuert werden und Verwendung finden, um dem Spieler Anleitung oder Hinweise zu geben. Dadurch kann ein Lehrer wichtige Anmerkungen für die Schüler geben, die zu jedem Zeitpunkt abgerufen werden können, der Lehrer selbst muss nicht anwesend sein.
@@ -117,9 +118,42 @@ Dies kann eingesetzt werden, um noch einmal eine Zusammenfassung des Unterrichts
 	\label{npc}
 \end{figure}
 
+\subsection{Code Builder}
+Der Code Builder vermittelt wissen im Bereich programmieren. Die Schüler haben die Möglichkeit, Quellcode zu schreiben und diesen anschließend mithilfe eines Agents (Ein spezieller NPC) auszuführen.
+Dieser führt dann die Befehle aus dem Quellcode um. 
+
+Zusätzlich kann er auch über direkte Befehle gesteuert werden. Nachfolgend ein paar Beispiele:
+
+\begin{lstlisting}[caption={Agent Befehle}\label{lst:agentCommands},captionpos=t,language=JAVA]
+move <direction>
+turn <turnDirection>
+transfer <int:srcSlotNum> <int:quantity> <int:dstSlotNum>
+collect <string:item>
+till <direction>
+place <int:slotNum> <direction>
+\end{lstlisting}
+
+Die Befehle sind dabei sehr einfach aufgebaut. Der Agent lässt sich beispielsweise über den Befehle \textit{move} in eine gewünschte Richtung \textit{<direction>} bewegen. Mit weiteren Anweisungen lassen sich Gegenstände aufheben, übergeben an andere Figuren und platzieren. Alle Aktionen die auch ein Spieler-Avatar umsetzten kann, sind als Befehle verfügbar. 
+
+\subsection{Tafeln}
+
+Tafeln in Minecraft in Education, entsprechen ihrem realen Vorbild. Ähnlich wie NPCs (siehe \ref{npcs}), werden auch Tafeln genutzt, um Informationen an Schüler weiterzugeben.
+Anders als NPCs sind diese allerdings, fest an einem Ort. Sie eigenen sich als Einsteiginformation in einen Kurs oder als Wiederholung einer Aufgabenstellung.
+
 \subsection{Kurse}
 
 Ein Kurs meint eine abgeschlossene Lektion, innerhalb eines Faches. Technisch gesehen, ein Wiederherstellungspunkt einer Spielwelt, zu einem bestimmten Zeitpunkt. Diese können separat abgespeichert und jederzeit kann darauf zugegriffen werden. Dies ist ein wichtige Funktion von Minecraft in Education, da es erlaubt, Kursinhalte zwischen Schule und anderen Einrichtungen zu tauschen.
+
+Microsoft hat dafür eine umfangreiche Datenbank an Kursen zusammengestellt, wie nachfolgend dargestellt.
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{images/MicrosoftMinecraftCourses.png}
+	\caption{Beispielkurse bei Microsoft \cite{MicrosoftMinecraftCourses}}
+	\label{minecraftCourses}
+\end{figure}
+
+Um Schüler zu motivieren, wird dort mit einem Punktesystem gearbeitet. Wird ein Kurs erfolgreich abgeschlossen, gibt es Punkte und Auszeichnungen. Gerade für den Einsteig lohnt es sich, dort vorbeizuschauen, da viele der Einsteigkurse für die Verwendung von Minecraft in Education verfügbar sind.
 
 \section{Vernetzung von Schulen}
 
@@ -134,9 +168,13 @@ Neben dem Transfer von Wissen an Schülern, wird auch die Chance geboten, IT Wis
 
 Eine der spannenden Fragen zu diesem Thema lautet: Wie wirkt sich der Einsatz von Lernspielen auf das Lernverhalten aus?
 
-Pauschal lässt sich diese Frage nicht beantworten. Viele Faktoren, wie Spaß am spielerischen Lernen oder Vorkenntnisse eines Schülers, spielen eine große Rolle. Was aber gesagt werden kann, ist das die spielerisch Herangehensweise an komplexe Themen, wie in der Mathematik, vielen Schülern die Angst nimmt.
+Viele Faktoren, wie Spaß am spielerischen Lernen oder Vorkenntnisse eines Schülers, spielen eine große Rolle beim Lernverhalten. Deshalb lässt sich diese Frage nicht pauschal beantworten. Was aber gesagt werden kann, ist das die spielerisch Herangehensweise an komplexe Themen, wie in der Mathematik, vielen Schülern die Angst nimmt.
+
+Nicht jeder Schüler lernt auf die selbe Art und Weise gleich gut. Es ist bekannt, dass es verschiedene Lerntypen gibt und diese ihre eigenen Stärken und Schwächen haben. In Minecraft in Education kann entgegen des herkömmlichen Schulunterrichts, der wie eine Vorlesung aufgebaut ist, auch auf Lerntypen, die beispielsweise durch ausprobieren am Besten lernen (Exploratives Lernen), eingegangen werden. Dies kann durch eine offene Aufgabenstellung mit viel Freiheit für Kreativität und dem schlichten Ausprobieren, wie Dinge funktionieren, erreicht werden. Dadurch werden die Kinder motiviert, da sie für ihren Lerntyp Aufgaben erhalten und schneller Fortschritte machen.
 
 Ebenso macht vielen Kindern die Arbeit in der Gruppe Spaß und motiviert sie. Mit Freunden und Klassenkameraden zu Spiele und auch mal Blödsinn zu machen, ist wichtig für die Motivation in der Gruppe. Hier sollten die Lehrenden auf ein gutes Gleichgewicht achten. Durch das frühe arbeiten in Teams, wird die Teamfähigkeit geübt was später für das Studium und den beruflichen Alltag entscheidend ist.
+
+
 
 Auch der Umgang mit den eigenen Daten kann vermittelt werden, in dem den Schülern gezeigt wird, welche Daten gesammelt und gespeichert werden. Dies kann auf Beispiele in der realen Welt, wie Facebook und Google übertragen werden. Es ist sehr wichtig, junge Menschen für dieses Thema zu sensibilisieren.
 
