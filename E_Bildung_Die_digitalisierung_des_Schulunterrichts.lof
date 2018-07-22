@@ -1,22 +1,22 @@
 \babel@toc {ngerman}{}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1}{\ignorespaces Infografik zu den Inhalten des Bildungsplans 2016 von Baden-W\IeC {\"u}rtemberg f\IeC {\"u}r das Fach Informatik\relax }}{3}{figure.caption.2}
-\contentsline {figure}{\numberline {2}{\ignorespaces Infografik zu den Kompetenzen der Sch\IeC {\"u}ler im Fach Informatik im Bereich Strukturieren und Vernetzen\relax }}{3}{figure.caption.3}
-\contentsline {figure}{\numberline {3}{\ignorespaces Infografik zu den Kompetenzen der Sch\IeC {\"u}ler im Fach Informatik im Bereich Modellieren und Implementieren\relax }}{4}{figure.caption.4}
-\contentsline {figure}{\numberline {4}{\ignorespaces Infografik zu den Kompetenzen der Sch\IeC {\"u}ler im Fach Informatik im Bereich Kommunizieren und Kooperieren\relax }}{5}{figure.caption.5}
-\contentsline {figure}{\numberline {5}{\ignorespaces Infografik zu den Kompetenzen der Sch\IeC {\"u}ler im Fach Informatik im Bereich Analysieren und Bewerten\relax }}{6}{figure.caption.6}
+\contentsline {figure}{\numberline {1}{\ignorespaces Infografik zu den Inhalten des Bildungsplans 2016 von Baden-W\IeC {\"u}rtemberg f\IeC {\"u}r das Fach Informatik \cite {InfoGra}\relax }}{2}{figure.caption.2}
+\contentsline {figure}{\numberline {2}{\ignorespaces Infografik zu den Kompetenzen der Sch\IeC {\"u}ler im Fach Informatik im Bereich Strukturieren und Vernetzen \cite {StruktVer}\relax }}{3}{figure.caption.3}
+\contentsline {figure}{\numberline {3}{\ignorespaces Infografik zu den Kompetenzen der Sch\IeC {\"u}ler im Fach Informatik im Bereich Modellieren und Implementieren \cite {Model}\relax }}{4}{figure.caption.4}
+\contentsline {figure}{\numberline {4}{\ignorespaces Infografik zu den Kompetenzen der Sch\IeC {\"u}ler im Fach Informatik im Bereich Kommunizieren und Kooperieren \cite {Komm}\relax }}{5}{figure.caption.5}
+\contentsline {figure}{\numberline {5}{\ignorespaces Infografik zu den Kompetenzen der Sch\IeC {\"u}ler im Fach Informatik im Bereich Analysieren und Bewerten \cite {Analy}\relax }}{5}{figure.caption.6}
 \contentsline {figure}{\numberline {6}{\ignorespaces Ein beispielhaftes Arbeitsblatt f\IeC {\"u}r Grundsch\IeC {\"u}ler zum Ausschneiden zum Erlernen der Topologischen Sorrtierung. Bilder entnommen vom Bildungsserver von Niedersachsen \cite {Kleidung}\relax }}{8}{figure.caption.7}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7}{\ignorespaces Mixed-Reality\relax }}{12}{figure.caption.8}
-\contentsline {figure}{\numberline {8}{\ignorespaces Mixed-Reality-Spektrum\relax }}{13}{figure.caption.9}
-\contentsline {figure}{\numberline {9}{\ignorespaces Mixed Reality Device Types\relax }}{13}{figure.caption.10}
-\contentsline {figure}{\numberline {10}{\ignorespaces Beispiele mit Mixed-Reality\relax }}{14}{figure.caption.11}
-\contentsline {figure}{\numberline {11}{\ignorespaces Google Cardboard\relax }}{17}{figure.caption.12}
-\contentsline {figure}{\numberline {12}{\ignorespaces Testergebnisse zweier Gruppen\relax }}{18}{figure.caption.13}
+\contentsline {figure}{\numberline {7}{\ignorespaces Mixed-Reality Quelle: \cite [vgl.][]{BrandonBray}\relax }}{11}{figure.caption.8}
+\contentsline {figure}{\numberline {8}{\ignorespaces Mixed-Reality-Spektrum Quelle: \cite [vgl.][]{BrandonBray}\relax }}{12}{figure.caption.9}
+\contentsline {figure}{\numberline {9}{\ignorespaces Mixed Reality Device Types Quelle: \cite [vgl.][]{BrandonBray}\relax }}{12}{figure.caption.10}
+\contentsline {figure}{\numberline {10}{\ignorespaces Beispiele mit Mixed-Reality Quelle: \cite [vgl.][]{BrandonBray}\relax }}{13}{figure.caption.11}
+\contentsline {figure}{\numberline {11}{\ignorespaces Google Cardboard Quelle: \cite [vgl.][]{Cardboard2}\relax }}{16}{figure.caption.12}
+\contentsline {figure}{\numberline {12}{\ignorespaces Testergebnisse zweier Gruppen Quelle: \cite [vgl.][]{htcvive}\relax }}{17}{figure.caption.13}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {13}{\ignorespaces Projekt Minecraft in Education \cite {HomepageMinecraftEducation}\relax }}{20}{figure.caption.14}
-\contentsline {figure}{\numberline {14}{\ignorespaces Globe Theatre London als virtuelle Version \cite {EdutopiaIdeas}\relax }}{21}{figure.caption.15}
-\contentsline {figure}{\numberline {15}{\ignorespaces Signalverz\IeC {\"o}gerer mit \textbf {Redstone} \cite {GamepediaMinecraft}\relax }}{22}{figure.caption.16}
-\contentsline {figure}{\numberline {16}{\ignorespaces Allow und Deny Bl\IeC {\"o}cke \cite {GamepediaMinecraft}\relax }}{22}{figure.caption.17}
-\contentsline {figure}{\numberline {17}{\ignorespaces Ein NPC \cite {GamepediaMinecraft}\relax }}{23}{figure.caption.18}
-\contentsline {figure}{\numberline {18}{\ignorespaces Beispielkurse bei Microsoft \cite {MicrosoftMinecraftCourses}\relax }}{24}{figure.caption.19}
+\contentsline {figure}{\numberline {13}{\ignorespaces Projekt Minecraft in Education \cite {HomepageMinecraftEducation}\relax }}{19}{figure.caption.14}
+\contentsline {figure}{\numberline {14}{\ignorespaces Globe Theatre London als virtuelle Version \cite {EdutopiaIdeas}\relax }}{20}{figure.caption.15}
+\contentsline {figure}{\numberline {15}{\ignorespaces Signalverz\IeC {\"o}gerer mit \textbf {Redstone} \cite {GamepediaMinecraft}\relax }}{21}{figure.caption.16}
+\contentsline {figure}{\numberline {16}{\ignorespaces Allow und Deny Bl\IeC {\"o}cke \cite {GamepediaMinecraft}\relax }}{21}{figure.caption.17}
+\contentsline {figure}{\numberline {17}{\ignorespaces Ein NPC \cite {GamepediaMinecraft}\relax }}{22}{figure.caption.18}
+\contentsline {figure}{\numberline {18}{\ignorespaces Beispielkurse bei Microsoft \cite {MicrosoftMinecraftCourses}\relax }}{23}{figure.caption.19}
